@@ -4,3 +4,8 @@
 
 
 In addition to learning more about the fundamental nature of everything in the universe, I spend time cooking, travelling and listening to music.
+
+**Paper Collection**
+
+* [AlexNet Paper](http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf)
+
