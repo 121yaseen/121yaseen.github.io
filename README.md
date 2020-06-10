@@ -7,5 +7,5 @@ In addition to learning more about the fundamental nature of everything in the u
 
 **Paper Collection**
 
-* [AlexNet Paper](http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf)
+* [AlexNet Paper](http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf) [Mirror](alexnet.pdf)
 
