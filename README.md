@@ -9,3 +9,9 @@ In addition to learning more about the fundamental nature of everything in the u
 
 * [AlexNet Paper](http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf) | [Mirror](alexnet.pdf)
 
+**Cheatsheets**
+
+* [ggplot2](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) | [Mirror](ggplot2.pdf)
+
+
+
