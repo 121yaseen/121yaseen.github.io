@@ -13,30 +13,3 @@ In addition to learning more about the fundamental nature of everything in the u
 **Cheatsheets**
 
 * [ggplot2](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) | [Mirror](ggplot2.pdf)
-
-
-
-<section class="github section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">My GitHub</h2>
-                        <!-- <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.  -->
-                        <div class="calendar" >
-                        </div>
-                            <script>
-                                GitHubCalendar(".calendar", "Leos1999");
-                            
-                                // or enable responsive functionality:
-                                GitHubCalendar(".calendar", "Leos1999", { responsive: true });
-                            
-                                // Use a proxy
-                                GitHubCalendar(".calendar", "Leos1999", { proxy (username) { return fetch(`https://github.com/github?user=${username}`).then(r => r.text())}});
-                            </script>    
-                        <!-- <div id="github-graph" class="github-graph">
-                        </div> -->
-
-                        <!-- <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.                      
-                        <div id="ghfeed" class="ghfeed">
-                        </div> -->
-                        
-                    </div>
-                </section>
