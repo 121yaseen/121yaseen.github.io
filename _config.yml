@@ -1,0 +1,27 @@
+title: Muhammed Yaseen N A
+description: Personal website
+
+# Set this to true to get LaTeX math equation support
+use_math: true
+
+# Add your Google Analytics ID here if you have one and want to use it
+google_analytics: G-6QPH59LT02
+
+# Everything below here can be ignored, unless you want to change the theme entirely
+theme: minima
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+minima:
+  skin: solarized
+  social_links:
+    github: 121yaseen
+    linkedin: 121yaseen
+    twitter: yasee_n_
