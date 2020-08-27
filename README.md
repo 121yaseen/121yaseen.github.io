@@ -13,3 +13,6 @@ In addition to learning more about the fundamental nature of everything in the u
 **Cheatsheets**
 
 * [ggplot2](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) | [Mirror](ggplot2.pdf)
+**Domain Name Registration **
+
+* [Freenorm](https://www.freenom.com/en/index.html?lang=en)
