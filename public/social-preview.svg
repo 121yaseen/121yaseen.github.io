@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="a" cx="0.2" cy="0.2" r="0.9">
+      <stop offset="0%" stop-color="#4fd1c5" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#4fd1c5" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="b" cx="0.85" cy="0.2" r="0.75">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#a)" />
+  <rect width="1200" height="630" fill="url(#b)" />
+  <g opacity="0.15" stroke="#ffffff">
+    <path d="M0 170h1200M0 310h1200M0 450h1200" />
+    <path d="M200 0v630M400 0v630M600 0v630M800 0v630M1000 0v630" />
+  </g>
+  <rect x="70" y="60" width="1060" height="510" rx="36" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)" />
+  <text x="110" y="240" fill="#e5e7eb" font-size="72" font-family="ui-sans-serif, system-ui" font-weight="700">
+    TODO: Your Name
+  </text>
+  <text x="110" y="315" fill="#9ca3af" font-size="32" font-family="ui-sans-serif, system-ui">
+    Frontend Engineer • Product-minded Builder • Portfolio
+  </text>
+  <text x="110" y="410" fill="#d1d5db" font-size="26" font-family="ui-sans-serif, system-ui">
+    Replace this preview with your own branded OG image before sharing.
+  </text>
+  <g transform="translate(110,468)">
+    <rect width="248" height="54" rx="27" fill="rgba(79,209,197,0.12)" stroke="rgba(79,209,197,0.45)" />
+    <text x="28" y="35" fill="#c8faf5" font-size="22" font-family="ui-sans-serif, system-ui">Premium • Minimal • Motion</text>
+  </g>
+</svg>
+
