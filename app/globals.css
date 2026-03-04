@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9fbff;
+  --foreground: #141821;
+  --muted: #5a6274;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-space-grotesk);
+  --font-display: var(--font-syne);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-space-grotesk), "Segoe UI", sans-serif;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-syne), "Segoe UI", sans-serif;
+}
+
+@keyframes fluidDriftA {
+  0% {
+    transform: translate(-8%, -6%) scale(1);
+  }
+  50% {
+    transform: translate(8%, 5%) scale(1.06);
+  }
+  100% {
+    transform: translate(-8%, -6%) scale(1);
+  }
+}
+
+@keyframes fluidDriftB {
+  0% {
+    transform: translate(6%, -8%) scale(1.04);
+  }
+  50% {
+    transform: translate(-9%, 7%) scale(0.96);
+  }
+  100% {
+    transform: translate(6%, -8%) scale(1.04);
+  }
+}
+
+@keyframes fluidDriftC {
+  0% {
+    transform: translate(-4%, 7%) scale(0.98);
+  }
+  50% {
+    transform: translate(7%, -5%) scale(1.08);
+  }
+  100% {
+    transform: translate(-4%, 7%) scale(0.98);
+  }
+}
+
+.fluid-fallback-blob {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(60px);
+  opacity: 0.44;
+}
+
+.fluid-fallback-blob-a {
+  left: -8%;
+  top: 10%;
+  height: 34vw;
+  width: 40vw;
+  min-height: 220px;
+  min-width: 260px;
+  background: radial-gradient(circle at 36% 48%, rgba(242, 152, 206, 0.75) 0%, rgba(242, 152, 206, 0) 72%);
+  animation: fluidDriftA 22s ease-in-out infinite;
+}
+
+.fluid-fallback-blob-b {
+  right: -10%;
+  top: 14%;
+  height: 32vw;
+  width: 36vw;
+  min-height: 220px;
+  min-width: 240px;
+  background: radial-gradient(circle at 45% 45%, rgba(145, 229, 255, 0.74) 0%, rgba(145, 229, 255, 0) 70%);
+  animation: fluidDriftB 20s ease-in-out infinite;
+}
+
+.fluid-fallback-blob-c {
+  left: 22%;
+  bottom: -8%;
+  height: 34vw;
+  width: 42vw;
+  min-height: 220px;
+  min-width: 280px;
+  background: radial-gradient(circle at 48% 45%, rgba(195, 178, 255, 0.68) 0%, rgba(195, 178, 255, 0) 72%);
+  animation: fluidDriftC 24s ease-in-out infinite;
+}
+
+.fluid-fallback-blob-d {
+  right: 8%;
+  bottom: -12%;
+  height: 26vw;
+  width: 30vw;
+  min-height: 180px;
+  min-width: 220px;
+  background: radial-gradient(circle at 42% 42%, rgba(255, 221, 176, 0.68) 0%, rgba(255, 221, 176, 0) 72%);
+  animation: fluidDriftB 28s ease-in-out infinite reverse;
+}
